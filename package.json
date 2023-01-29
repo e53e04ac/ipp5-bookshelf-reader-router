@@ -1,17 +1,17 @@
 {
-  "name": "ipp5-backend-api",
+  "name": "ipp5-bookshelf-reader-router",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
   "author": "e53e04ac",
-  "homepage": "https://github.com/e53e04ac/ipp5-backend-api#readme",
+  "homepage": "https://github.com/e53e04ac/ipp5-bookshelf-reader-router#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e53e04ac/ipp5-backend-api.git"
+    "url": "git+https://github.com/e53e04ac/ipp5-bookshelf-reader-router.git"
   },
   "bugs": {
-    "url": "https://github.com/e53e04ac/ipp5-backend-api/issues"
+    "url": "https://github.com/e53e04ac/ipp5-bookshelf-reader-router/issues"
   },
   "type": "module",
   "types": "./types.d.ts",
