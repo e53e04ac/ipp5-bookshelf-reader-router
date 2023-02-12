@@ -38,7 +38,7 @@ graph RL;
   click B_4 "https://www.npmjs.org/package/joi/v/17.7.1";
   click B_5 "https://www.npmjs.org/package/@types/express/v/4.17.17";
   click B_6 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_7 "https://github.com/e53e04ac/ipp5-types/tree/f0ef220175398bc3bab4a468906a94e8446fc893";
+  click B_7 "https://github.com/e53e04ac/ipp5-types/tree/e950b5bccb9901b27ada132a459c0117aa587939";
 ~~~~~
 
 ~~~~~ mermaid
