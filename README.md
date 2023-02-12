@@ -31,8 +31,8 @@ graph RL;
   A ----> B_5;
   A ----> B_6;
   A ----> B_7;
-  click B_0 "https://github.com/e53e04ac/date-time/tree/e48246dc663b1ca6663b2ec4e2699d6fef5a515e";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/b3a7678f84ede6ae2111a8802360b326a57d3ef2";
+  click B_0 "https://github.com/e53e04ac/date-time/tree/bdcf01ee6506eacf5857ad340426e2befb2b3a64";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/93b9f205a7be92bb920d2d4f13efa78be7b4ba5d";
   click B_2 "https://www.npmjs.org/package/express/v/4.18.2";
   click B_3 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
   click B_4 "https://www.npmjs.org/package/joi/v/17.7.1";
@@ -73,8 +73,9 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-bookshelf-reader-router";
-    E_0(["type Ipp5BookshelfReaderRouter"]);
-    E_1(["const Ipp5BookshelfReaderRouter"]);
+    E_0(["namespace Ipp5BookshelfReaderRouter"]);
+    E_1(["type Ipp5BookshelfReaderRouter"]);
+    E_2(["const Ipp5BookshelfReaderRouter"]);
   end;
   M(["index.d.ts"])
   subgraph "express";
@@ -111,4 +112,5 @@ graph RL;
   M ----> I_5_3;
   E_0 ----> M;
   E_1 ----> M;
+  E_2 ----> M;
 ~~~~~
