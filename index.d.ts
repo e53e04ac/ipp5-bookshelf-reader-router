@@ -18,6 +18,8 @@ import { Ipp5YearlySummaryData } from 'ipp5-types';
 
 export declare namespace Ipp5BookshelfReaderRouter {
 
+    type Options = Record<never, never>;
+
     type EventSpecs = {
         menuData: {
             input: {
@@ -60,8 +62,6 @@ export declare namespace Ipp5BookshelfReaderRouter {
             };
         };
     };
-
-    type Options = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
