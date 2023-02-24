@@ -10,18 +10,30 @@ import { Ipp5BookshelfReaderRouter } from 'e53e04ac/ipp5-bookshelf-reader-router
 
 ~~~~~ mermaid
 graph RL;
-  A(["package.json"]);
+  A["package.json\npackage-lock.json"];
   subgraph "dependencies";
-    B_0(["e53e04ac/date-time"]);
-    B_1(["e53e04ac/event-emitter"]);
+    B_0(["date-time"]);
+    B_1(["event-emitter"]);
     B_2(["express"]);
-    B_3(["e53e04ac/hold"]);
+    B_3(["hold"]);
     B_4(["joi"]);
   end;
   subgraph "devDependencies";
     B_5(["@types/express"]);
     B_6(["@types/node"]);
-    B_7(["e53e04ac/ipp5-types"]);
+    B_7(["ipp5-types"]);
+  end;
+  subgraph "github";
+    C_0(["e53e04ac/date-time\n744d828e44efdfe5d9dad5a0ea89a931db91053a"]);
+    C_1(["e53e04ac/event-emitter\n98fd492f5a6e31cd646d4b79e70035061165871f"]);
+    C_3(["e53e04ac/hold\n6845a848f97733b8cd8a34bfc03c3bf040818aa8"]);
+    C_7(["e53e04ac/ipp5-types\n82577500bdeaa45ca281669d5ed3d3850c4376e8"]);
+  end;
+  subgraph "npmjs";
+    C_2(["express\n4.18.2"]);
+    C_4(["joi\n17.8.3"]);
+    C_5(["@types/express\n4.17.17"]);
+    C_6(["@types/node\n18.14.1"]);
   end;
   A ----> B_0;
   A ----> B_1;
@@ -31,14 +43,22 @@ graph RL;
   A ----> B_5;
   A ----> B_6;
   A ----> B_7;
-  click B_0 "https://github.com/e53e04ac/date-time/tree/938d21223ea8acca6858650fa223280897c82b7a";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/faf256d4d2350ffa0af1fed794236faa4f0740a1";
-  click B_2 "https://www.npmjs.com/package/express/v/4.18.2";
-  click B_3 "https://github.com/e53e04ac/hold/tree/443c2e801bbe20409c761994a91fa88fb6044602";
-  click B_4 "https://www.npmjs.com/package/joi/v/17.8.3";
-  click B_5 "https://www.npmjs.com/package/@types/express/v/4.17.17";
-  click B_6 "https://www.npmjs.com/package/@types/node/v/18.14.1";
-  click B_7 "https://github.com/e53e04ac/ipp5-types/tree/0a43bae7223e3c65232855804c51a33affbbb06f";
+  B_0 ----> C_0;
+  B_1 ----> C_1;
+  B_2 ----> C_2;
+  B_3 ----> C_3;
+  B_4 ----> C_4;
+  B_5 ----> C_5;
+  B_6 ----> C_6;
+  B_7 ----> C_7;
+  click C_0 "https://github.com/e53e04ac/date-time/tree/744d828e44efdfe5d9dad5a0ea89a931db91053a";
+  click C_1 "https://github.com/e53e04ac/event-emitter/tree/98fd492f5a6e31cd646d4b79e70035061165871f";
+  click C_2 "https://www.npmjs.com/package/express/v/4.18.2";
+  click C_3 "https://github.com/e53e04ac/hold/tree/6845a848f97733b8cd8a34bfc03c3bf040818aa8";
+  click C_4 "https://www.npmjs.com/package/joi/v/17.8.3";
+  click C_5 "https://www.npmjs.com/package/@types/express/v/4.17.17";
+  click C_6 "https://www.npmjs.com/package/@types/node/v/18.14.1";
+  click C_7 "https://github.com/e53e04ac/ipp5-types/tree/82577500bdeaa45ca281669d5ed3d3850c4376e8";
 ~~~~~
 
 ~~~~~ mermaid
@@ -46,7 +66,7 @@ graph RL;
   subgraph "e53e04ac/ipp5-bookshelf-reader-router";
     E_0(["Ipp5BookshelfReaderRouter"]);
   end;
-  M(["index.mjs"])
+  M["index.mjs"]
   subgraph "express";
     I_0_0(["Router"]);
   end;
@@ -77,7 +97,7 @@ graph RL;
     E_1(["type Ipp5BookshelfReaderRouter"]);
     E_2(["const Ipp5BookshelfReaderRouter"]);
   end;
-  M(["index.d.ts"])
+  M["index.d.ts"]
   subgraph "express";
     I_0_0(["Router"]);
     I_0_1(["RequestHandler"]);
